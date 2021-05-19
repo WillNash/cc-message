@@ -9,9 +9,13 @@ function getRandomInt(max) {
 
 function generateMessage(){
     var posOrNeg = getRandomInt(2);
-    var posStatement1 = ["like you", "love you", "admire you","adore you", "enjoy your company", "want to spend more time with you"];
-    var posStatement2 = ["wonderful", "lovely","kind", "beautiful", "friendly","sweet"];
-    var posStatement3 = ["you'll always be my friend", "good things will happen to you", "all your dreams will come true"];
+    var posStatement1 = ["like you", "love you", "admire you","adore you", "enjoy your company",
+                         "want to spend more time with you","can't get enough of you","think you are wonderful",
+                          ];
+    var posStatement2 = ["wonderful", "lovely","kind", "beautiful", "friendly","sweet","full of life", "see the best in people",
+                        "have a great attitude", "think positively"];
+    var posStatement3 = ["you'll always be my friend", "good things will happen to you", "all your dreams will come true",
+                         "live a long and happy life", "life is wonderful for you", "we can be friends"];
     var negStatement1 = ["hate you", "despise you", "loathe you", "can\'t stand you", "really dislike you"];
     var negStatement2 = ["nasty", "unkind", "stupid", "smelly", "a liar"];
     var negStatement3 = ["nothing good will ever happen to you", "you will always be unhappy", "no one will be friends with you"];
